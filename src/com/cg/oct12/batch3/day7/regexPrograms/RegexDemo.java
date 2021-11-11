@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class RegexDemo {
 	public static void main(String[] args) {
 		String regex = "abc";
-		String input = "aasabcjhsjsjsjs";
+		String input = "abcjhsabcjsjsjs";
 		
 		Pattern pattern = Pattern.compile(regex);
 		Matcher matcher = pattern.matcher(input);

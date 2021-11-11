@@ -53,19 +53,19 @@ public class StreamDemo {
     	// print the list
     	System.out.println(empList);
 
-    	// iterate using Iterator
-    	System.out.println("\nIterate using Iterator");
-    	Iterator<Employee> empIt = empList.iterator();
-    	while (empIt.hasNext())
-         	System.out.println(empIt.next().toString());
+//    	// iterate using Iterator
+//    	System.out.println("\nIterate using Iterator");
+//    	Iterator<Employee> empIt = empList.iterator();
+//    	while (empIt.hasNext())
+//         	System.out.println(empIt.next().toString());
 //
 //    	// Iterate using forEach() with anonymous inner class
-    	System.out.println("\nIterate using forEach() with anonymous inner class ");
-    	empList.forEach(new Consumer<Employee>() {
-         	public void accept(Employee emp) {
-              	System.out.println(emp.toString());
-         	}
-    	});
+//    	System.out.println("\nIterate using forEach() with anonymous inner class ");
+//    	empList.forEach(new Consumer<Employee>() {
+//         	public void accept(Employee emp) {
+//              	System.out.println(emp.toString());
+//         	}
+//    	});
 //
 //    	// using forEach() with lambda expression
 //    	System.out.println("\nIterate using forEach() with lambda expression");
@@ -78,7 +78,7 @@ public class StreamDemo {
 //    	// using collect(), convert to List
 //    	System.out.println(empStream.collect(Collectors.toList()));
 //
-//    	// using filter() to get specified data
+    	// using filter() to get specified data
 //    	System.out.println("\nUsing filter() to get specified data ");
 //    	Stream<Employee> empWithMoreSal = empList.stream().filter(emp -> emp.salary > 15000);
 //    	empWithMoreSal.forEach(emp -> System.out.println(emp.toString()));
